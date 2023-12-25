@@ -2,10 +2,7 @@
 Implementation of combinational logic gates
  
 ## AIM:
-To implement the given logic function verify its operation in Quartus using Verilog programming. F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D F2=xy’z+x’y’z+w’xy+wx’y+wxy
-To implement the given logic function verify its operation in Quartus using Verilog programming.
- F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-F2=xy’z+x’y’z+w’xy+wx’y+wxy
+To implement the given logic function verify its operation in Quartus using Verilog programming. F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D F2=xy’z+x’y’z+w’xy+wx’y+wxy.
  
  
  
@@ -15,14 +12,25 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 
 ## Theory
- 
+ Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
+
+Using AND gate: An AND gate is a fundamental digital logic gate that performs a logical conjunction on its input signals. It produces an output signal only when all of its input signals are high (logic level 1). If any of the input signals is low (logic level 0), the output of the AND gate remains low.
+
+using NOT gate: A NOT gate, also known as an inverter, is a basic digital logic gate that performs the operation of negation on its input signal. In other words, it produces the opposite (complementary) output to its input. If the input is high (logic level 1), the output will be low (logic level 0), and if the input is low, the output will be high.
+
+using OR gate: An OR gate is a fundamental digital logic gate that performs a logical disjunction on its input signals. It produces an output signal when at least one of its input signals is high (logic level 1). The output remains low only if all input signals are low (logic level 0).
+
+Procedure : 1.Create a project with required entities. 2.Create a module along with respective file name. 3.Run the respective programs for the given boolean equations. 4.Run the module and get the respective RTL outputs. 5.Create university program(VWF) for getting timing diagram. 6.Give the respective inputs for timing diagram and obtain the results.
+
+
+
+## Program: Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
 /*Developed by: ROOP SAGAR S L
+
 RegisterNumber:  212223040175
 
-## Logic Diagram
-## Procedure
-## Program:
-
+##code:
 module exp2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
@@ -54,4 +62,3 @@ Truthtable :
 ## Timing Diagram
 ## Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
-Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
