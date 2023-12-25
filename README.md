@@ -43,6 +43,10 @@ assign x5=(b)&(~c)&(d);
 assign f1=x1|x2|x3|x4|x5;
 endmodule
 
+code:
+
+![Screenshot 2023-12-25 140842](https://github.com/Roopsagar23001830/Experiment--02-Implementation-of-combinational-logic-/assets/145972515/f8464a8b-b4e6-492e-bef5-d7c789a7276b)
+
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
 */
