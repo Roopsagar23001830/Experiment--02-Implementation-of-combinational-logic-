@@ -2,6 +2,7 @@
 Implementation of combinational logic gates
  
 ## AIM:
+To implement the given logic function verify its operation in Quartus using Verilog programming. F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D F2=xy’z+x’y’z+w’xy+wx’y+wxy
 To implement the given logic function verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
@@ -52,4 +53,5 @@ Truthtable :
 
 ## Timing Diagram
 ## Result:
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
